@@ -1,0 +1,58 @@
+[
+    {
+        "id": 2,
+        "name": "Джон Леннон",
+        "birth_year": null,
+        "age": null,
+        "country": null,
+        "albums_count": 1
+    },
+    {
+        "id": 3,
+        "name": "Курт Кобейн",
+        "birth_year": 1967,
+        "age": 59,
+        "country": "США",
+        "albums_count": 1
+    },
+    {
+        "id": 4,
+        "name": "Соня Грезе",
+        "birth_year": 1993,
+        "age": 33,
+        "country": "Россия",
+        "albums_count": 1
+    },
+    {
+        "id": 5,
+        "name": "Рианна",
+        "birth_year": 1988,
+        "age": 38,
+        "country": "США",
+        "albums_count": 1
+    },
+    {
+        "id": 6,
+        "name": "Ники Минаж",
+        "birth_year": 1982,
+        "age": 44,
+        "country": "США",
+        "albums_count": 1
+    },
+    {
+        "id": 7,
+        "name": "Mnogoznaal",
+        "birth_year": 1993,
+        "age": 33,
+        "country": "Россия",
+        "albums_count": 2
+    },
+    {
+        "id": 8,
+        "name": "Лев Лещенко",
+        "birth_year": 1942,
+        "age": 84,
+        "country": null,
+        "albums_count": 0
+    }
+]

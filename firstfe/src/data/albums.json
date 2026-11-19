@@ -1,0 +1,65 @@
+[
+    {
+        "id": 7,
+        "name": "Гостиница «Космос»",
+        "year": 2018,
+        "artist": "Mnogoznaal",
+        "artist_id": 7,
+        "status": "regular",
+        "status_display": "Обычный"
+    },
+    {
+        "id": 8,
+        "name": "Круг ветров",
+        "year": 2020,
+        "artist": "Mnogoznaal",
+        "artist_id": 7,
+        "status": "regular",
+        "status_display": "Обычный"
+    },
+    {
+        "id": 1,
+        "name": "Imagine",
+        "year": 1971,
+        "artist": "Джон Леннон",
+        "artist_id": 2,
+        "status": "platinum",
+        "status_display": "Платиновый"
+    },
+    {
+        "id": 3,
+        "name": "Nevermind",
+        "year": 1991,
+        "artist": "Курт Кобейн",
+        "artist_id": 3,
+        "status": "platinum",
+        "status_display": "Платиновый"
+    },
+    {
+        "id": 6,
+        "name": "Pink Friday",
+        "year": 2010,
+        "artist": "Ники Минаж",
+        "artist_id": 6,
+        "status": "platinum",
+        "status_display": "Платиновый"
+    },
+    {
+        "id": 5,
+        "name": "Anti",
+        "year": 2016,
+        "artist": "Рианна",
+        "artist_id": 5,
+        "status": "platinum",
+        "status_display": "Платиновый"
+    },
+    {
+        "id": 4,
+        "name": "Заткнись",
+        "year": 2022,
+        "artist": "Соня Грезе",
+        "artist_id": 4,
+        "status": "regular",
+        "status_display": "Обычный"
+    }
+]
