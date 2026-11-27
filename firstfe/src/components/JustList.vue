@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { get_albums, get_artists,  } from '@/tools/tools';
-import {ref, onMounted} from "vue";
+import { get_albums, get_artists, get_songs } from '@/tools/tools';
+import {ref, watchEffect} from "vue";
 import { RouterLink } from 'vue-router'
 
 
@@ -10,21 +10,26 @@ const props = defineProps<{
   id?: string | number | null,
 }>()
 
-const data = ref([])
-let route_name;
+const data = ref<{ id: number, name: string }[]>([])
+const route_name = ref('')
 
-onMounted( () => {
+watchEffect( () => {
   if (props.ds_name == "artists") {
     data.value = get_artists()
-    route_name = "artist"
+    route_name.value = "artist"
   }
   else
   if (props.ds_name == "albums") {
-    route_name = "album"
+    route_name.value = "album"
     if (props.id)
       data.value = get_albums(props.id)
     else
       data.value = get_albums()
+  }
+  else
+  if (props.ds_name == "songs") {
+    route_name.value = "song"
+    data.value = get_songs(props.id)
   }
 } )
 

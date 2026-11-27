@@ -12,9 +12,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/artists">Музыканты</RouterLink>
         <RouterLink to="/albums">Альбомы</RouterLink>
+        <RouterLink to="/songs">Песни</RouterLink>
       </nav>
     </div>
   </header>
@@ -83,5 +83,20 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+nav a {
+  flex: 0 0 auto;
+  padding: 0 0.65rem;
+}
+
+nav a:first-of-type {
+  padding-left: 0;
 }
 </style>

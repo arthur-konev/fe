@@ -22,9 +22,10 @@ onMounted( () => {
       {{ data.name }}
     </h2>
     {{ data.birth_year}}
+
+    <hr>
+    <JustList ds_name="albums" :id="props.id" />
   </div>
-  <hr>
-  <JustList ds_name="albums" :id="props.id" />
 </template>
 
 <style>

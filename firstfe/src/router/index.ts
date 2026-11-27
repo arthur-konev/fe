@@ -4,6 +4,8 @@ import ArtistsView from '@/views/ArtistsView.vue'
 import ArtistView from '@/views/ArtistView.vue'
 import AlbumsView from '@/views/AlbumsView.vue'
 import AlbumView from '@/views/AlbumView.vue'
+import SongView from '@/views/SongView.vue'
+import SongsView from '@/views/SongsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +34,16 @@ const router = createRouter({
       path: '/album/:id',
       name: 'album',
       component: AlbumView,
+    },
+    {
+      path: '/songs',
+      name: 'songs',
+      component: SongsView,
+    },
+    {
+      path: '/song/:id',
+      name: 'song',
+      component: SongView,
     },
     {
       path: '/about',
